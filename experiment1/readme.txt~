@@ -33,12 +33,3 @@ REFERENCES
 [1] T. Martinetz and K. Schulten, “A ‘Neural-Gas’ Network Learns
 Topologies,” Artif. Neural Networks, vol. 1, pp. 397–402, 1991.
 
-[2] M. Schmuker, T. Pfeil, and M. Nawrot, “A neuromorphic network for
-generic multivariate data classification,” Proc. Natl. Acad. Sci., pp. 1–6,
-Jan. 2014.
-
-[3] A. Diamond, M. Schmuker, A.Z. Berna, S.Trowell and T. Nowotny
-"Classifying chemical sensor data using GPU-accelerated bio-mimetic neuronal networks 
-based on the insect olfactory system", BMC Neuroscience 2014, 15(Suppl 1):P77  
-doi:10.1186/1471-2202-15-S1-P77
-
