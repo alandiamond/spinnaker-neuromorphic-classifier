@@ -22,16 +22,21 @@ CITING THIS WORK
 To cite the work in this project please contact one of the Github collaborators based at the University of Sussex.
 
 REFERENCES
-[1] M. M. Khan, D. R. Lester, L. A. Plana, A. Rast, X. Jin, E. Painkras, and
+
+[1] A. Diamond, T. Nowotny and M. Schmuker, "Comparing neuromorphic solutions in action: 
+implementing a bio-inspired solution to a benchmark classification task on three parallel-computing platforms" in
+Frontiers in Neuromorphic Engineering, 2016, Vol 9, No. 00491 doi:10.3389/fnins.2015.00491
+
+[2] M. M. Khan, D. R. Lester, L. A. Plana, A. Rast, X. Jin, E. Painkras, and
 S. B. Furber, “SpiNNaker: Mapping neural networks onto a massively-
 parallel chip multiprocessor,” in Proceedings of the International Joint
 Conference on Neural Networks, 2008, pp. 2849–2856
 
-[2] M. Schmuker, T. Pfeil, and M. Nawrot, “A neuromorphic network for
+[3] M. Schmuker, T. Pfeil, and M. Nawrot, “A neuromorphic network for
 generic multivariate data classification,” Proc. Natl. Acad. Sci., pp. 1–6,
 Jan. 2014.
 
-[3] A. Diamond, M. Schmuker, A.Z. Berna, S.Trowell and T. Nowotny
+[4] A. Diamond, M. Schmuker, A.Z. Berna, S.Trowell and T. Nowotny
 "Classifying chemical sensor data using GPU-accelerated bio-mimetic neuronal networks 
 based on the insect olfactory system", BMC Neuroscience 2014, 15(Suppl 1):P77  
 doi:10.1186/1471-2202-15-S1-P77
