@@ -1,18 +1,24 @@
 This project demonstrates multivariate classification using neuromorphic hardware, 
-in this case the SpiNNaker hardware platform [1].
-The classifier neural model design is based on that published in [2,3] which is a 
+in this case the SpiNNaker hardware platform [2].
+The classifier neural model design is based on that published in [1,3,4] which is a 
 bio-inspired design based on the insect olfactory system.
+Reference [1] provides the fullest details of how the classifier is implemented on the SpiNNaker platform.
 
 The core requirements to run these programs is Python 2.7 and a SpiNNaker board with 
-the accompanying software suite made available from MAnchester Universtiy;
+the accompanying software suite made available from Manchester University (see https://github.com/SpiNNakerManchester);
 The work is demonstrated here in a series of Python/PynNN/sPyNNaker experiments of 
 increasing complexity/difficulty.
-In all these experiments, for those unable to run the program themselves, screenshot(s) of the 
-relevant raster plots are made available in the "screenshots" subdirectory.
 
 EXPERIMENT 1
 This experiment demonstrates a basic ability to use synapse plasticity to learn to 
 classify ("recognise") 10 digits taken from the standard MNIST dataset.
+This experiment requires only the SpyNNaker software to be functional and any attached SpiNNaker board.
+For those unable to run the program themselves, screenshot(s) of the 
+relevant raster plots are made available in the "screenshots" subdirectory.
+
+SPINN5- LARGE MODEL - LIVE SPIKING
+This experiment demonstrates classification of MNIST using a much larger model (tested up to 30K neurons) running on the 48-chip SPiNN5 board. To achieve the throughput of input data for this large dataset, rather than spike source files, this experiment uses a C/C++ front end program to send more than 500 channels of live spikes to the board via UDP.  The C program was developed and tested on Ubuntu Linux using the g++ compiler.
+
 
 ACKNOWLEDGEMENTS
 This work is supported by a grant from the Human Brain Project (HBP).
