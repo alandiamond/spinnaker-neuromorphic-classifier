@@ -545,8 +545,7 @@ void testLimitedClasses_SeparateTrainingAndTestDataset(bool useLiveSpiking) {
 	addAllToVector(observationsExposureMs,"120");
 
 	vector<UINT> vrCount;
-	//addAllToVector(vrCount,"10 15 20 25 50 100 150 200");
-	addAllToVector(vrCount,"100");
+	addAllToVector(vrCount,"100 200 300 400 500 600");
 
 	vector<UINT> clusterSizes;
 	addAllToVector(clusterSizes,"20");
